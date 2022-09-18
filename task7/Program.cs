@@ -2,7 +2,7 @@
 
 int PsevdoFib(int first, int second, int n)
 {
-    return n == 1 ? first : (n == 2) ? second
+    return n == 1 ? first : n == 2 ? second
     : PsevdoFib(first, second, n - 1) + PsevdoFib(first, second, n - 2);
 }
 
